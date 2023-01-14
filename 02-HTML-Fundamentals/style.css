@@ -1,15 +1,17 @@
+body {
+  color: #444;
+  font-family: sans-serif;
+  border-top: #1098ed solid 10px;
+}
+
 h1,
 h2,
-h3,
-p,
-li,
-h4 {
-  font-family: sans-serif;
+h3 {
+  color: #1098ed;
 }
-h1 {
-  color: blue;
-  font-size: 26px;
 
+h1 {
+  font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
 }
@@ -49,4 +51,27 @@ footer p {
 }
 .related {
   list-style: none;
+}
+.main-header {
+  background-color: #f7f7f7;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ed;
+  border-bottom: 5px solid #1098ed;
+}
+a:link {
+  color: #1098ed;
+}
+a:visited {
+  color: #1098ed;
+}
+a:hover {
+  color: orange;
+  text-decoration: underline dotted orange;
+  font-weight: bold;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
 }
