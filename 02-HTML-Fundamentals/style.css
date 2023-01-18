@@ -1,9 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   color: #444;
   font-family: sans-serif;
   border-top: #1098ed solid 10px;
 }
-
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ed;
+  border-bottom: 5px solid #1098ed;
+  padding: 50px 0;
+  margin-top: 60px;
+  width: 500px;
+}
+nav {
+  font-size: 18px;
+}
+.post-header {
+  margin-bottom: 40px;
+}
+.post-img {
+  width: 100%;
+  height: auto;
+}
 h1,
 h2,
 h3 {
@@ -18,9 +50,11 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 h3 {
   font-size: 40px;
+  margin-bottom: 20px;
 }
 h4 {
   font-size: 27px;
@@ -28,11 +62,20 @@ h4 {
 }
 p {
   font-size: 22px;
-
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+ol,
+ul {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 li {
   font-size: 20px;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0;
 }
 footer p {
   font-size: 16px;
@@ -52,16 +95,11 @@ footer p {
 .related {
   list-style: none;
 }
-.main-header {
-  background-color: #f7f7f7;
-}
-aside {
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ed;
-  border-bottom: 5px solid #1098ed;
-}
+
 a:link {
   color: #1098ed;
+  margin: 20px;
+  display: inline-block;
 }
 a:visited {
   color: #1098ed;
@@ -75,3 +113,4 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+
