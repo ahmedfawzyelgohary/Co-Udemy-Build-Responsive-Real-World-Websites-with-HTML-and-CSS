@@ -7,6 +7,7 @@ body {
   color: #444;
   font-family: sans-serif;
   border-top: #1098ed solid 10px;
+  position: relative;
 }
 .container {
   width: 800px;
@@ -47,11 +48,16 @@ h1 {
   text-transform: uppercase;
   font-style: italic;
 }
+h1::first-letter {
+  font-style: normal;
+  margin-left: 5px;
+}
 
 h2 {
   font-size: 40px;
   margin-bottom: 30px;
 }
+
 h3 {
   font-size: 40px;
   margin-bottom: 20px;
@@ -113,4 +119,17 @@ a:active {
   background-color: black;
   font-style: italic;
 }
-
+button {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  padding: 29x;
+  font-size: 22px;
+  color: black;
+  cursor: pointer;
+}
+h2::after {
+  content: top;
+  display: inline-block;
+  background-color: #ffe70e;
+}
